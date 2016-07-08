@@ -1,6 +1,7 @@
 build:
   image: dakr/golangnode
   commands:
+    - echo "test"
     - npm install
     - bash -c "grunt build"
     - bash -c ". ~/.bashrc && .shipped/build"
