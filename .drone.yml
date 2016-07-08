@@ -3,7 +3,7 @@ build:
   commands: null
 publish:
   docker:
-    file: ./Dockerfile
+    file: ./Dockerfile.tiny
     insecure: true
     username: $$docker_user
     password: $$docker_key
